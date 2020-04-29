@@ -1,13 +1,11 @@
-package com.sungbum.htmlanalyzer;
+package com.sungbum.htmlanalyzer.sort;
 
 import org.junit.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
-public class WmpTestCharComparatorTest {
-    private final WmpTestCharComparator comparator = new WmpTestCharComparator();
+public class AlphabetComparatorTest {
+    private final AlphabetComparator comparator = new AlphabetComparator();
 
     @Test
     public void compare() {
@@ -18,8 +16,6 @@ public class WmpTestCharComparatorTest {
         for (char c : characters) {
             System.out.print(c);
         }
-
-
     }
 }
 

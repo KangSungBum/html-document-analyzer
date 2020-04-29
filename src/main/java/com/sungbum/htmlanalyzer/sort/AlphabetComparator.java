@@ -1,8 +1,8 @@
-package com.sungbum.htmlanalyzer;
+package com.sungbum.htmlanalyzer.sort;
 
 import java.util.Comparator;
 
-public class WmpTestCharComparator implements Comparator<Character> {
+public class AlphabetComparator implements Comparator<Character> {
     private final int EQUALIZING_NUMBER = 63;
 
     @Override
